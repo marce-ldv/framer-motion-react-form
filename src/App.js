@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import List from './components/List';
 import './App.css';
-import Drag from './components/Drag';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Drag />
+        <List />
       </header>
     </div>
   );
